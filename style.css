@@ -1,0 +1,140 @@
+body{
+  background-color: antiquewhite;
+  color:white;
+
+}
+
+
+
+
+/*font-family: 'Pacifico', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+
+
+nav{
+
+
+font-family: 'Ubuntu',sans-serif;
+}
+
+ul{
+  display: flex;
+list-style-type: none;
+height: 50px;
+align-items: center;
+background-color: black;
+padding: 0 12px;
+padding-left: 0;
+}
+nav ul li{
+  padding: 0 12px;
+}
+.brand{
+
+}
+
+img{
+  width: 50px;
+}
+.container{
+   color: white;
+   background-color: black;
+   font-family: 'Varela Round', sans-serif;
+   font-size: 1rem;
+  min-height: 75vh;
+  padding: 12px;
+  width: 70%;
+  margin: 12px auto;
+  background-image: url("PremiumPhoto.jpg");
+  
+
+
+}
+.icons{
+  color:white;
+  margin-right: 10px;
+  padding: 5px;
+}
+.icons i{
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.text{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6rem;
+  padding-left: 10px;
+  line-height: 1.5;
+
+}
+
+.bottom{
+
+  position: sticky;
+  height: 85px;
+  color:white;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 12px;
+
+}
+
+
+#myProgressBar{
+  width: 80vw;
+  cursor: pointer;
+}
+
+.duration-1{
+  padding:0 ;
+  margin: 0 23px;
+  
+}
+
+.songItemContainer{
+  margin-top: 40px;
+}
+.songItems{
+  height: 40px;
+  display: flex;
+  background-color: white;
+  color: black;
+  width: 44%;
+  font-size: small;
+  margin: 12px 0;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 34px;
+
+  
+}
+
+.songItems img{
+ width: 40px;
+margin:0 23px ;
+border-radius: 34px;
+
+}
+
+.duration-1 i{
+  cursor: pointer;
+}
+
+
+
+
+.songsInfo{
+  position: absolute;
+  left: 10vw;
+  font-family: 'Varela Round', sans-serif; 
+}
+
+.songsInfo img{
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
